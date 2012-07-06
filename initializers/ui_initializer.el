@@ -12,8 +12,6 @@
  '(tool-bar-mode nil)
  '(visual-line-mode nil t))
 
-(if window-system
-    (ns-toggle-fullscreen))
 
 (set-cursor-color "yellow")
 
